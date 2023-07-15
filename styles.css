@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+form input[type="text"] {
+  width: 300px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+form button {
+  padding: 5px 10px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+
+.complete-button,
+.delete-button {
+  padding: 5px 10px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+}
+
+.complete-button {
+  background-color: #4caf50;
+  color: #fff;
+  margin-right: 5px;
+}
+
+.delete-button {
+  background-color: #f44336;
+  color: #fff;
+}
